@@ -37,7 +37,7 @@ let computerCounter=0;
 
 function bestOf3 (){
     for (let i=0;i<5;i++){
-        let choice = prompt("Choose your weapon");
+        let choice = window.prompt("Choose your weapon");
         let uniChoice = choice.toLowerCase();
         let round = play(`${uniChoice}`,computerPlay());
         if (playerCounter===3 || playerCounter===-3){
