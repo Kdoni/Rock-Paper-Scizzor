@@ -76,5 +76,5 @@ img{
 }
 .hidden{
     transform: translateY(100%);
-    display: hidden;
+    display: none;
 }
